@@ -3,7 +3,7 @@ import pandas as pd
 
 rows = []
 
-with open("stars.csv",'r') as f:
+with open("jstar.csv",'r') as f:
     csvreader = csv.reader(f)
     for row in csvreader:
         rows.append(row)
